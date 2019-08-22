@@ -72,4 +72,13 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+   <<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/pavankumarreddy9368/maven-repository</url>
+   </repository>
+</distributionManagement>
+
 </project>

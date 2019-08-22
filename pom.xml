@@ -27,12 +27,19 @@
     </dependency>
   </dependencies>
   
-   <distributionManagement>
-   <repository>
-     <id>github</id>
-     <name>GitHub OWNER Apache Maven Packages</name>
-     <url>https://maven.pkg.github.com/pavankumarreddy9368/maven-repository</url>
-   </repository>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-C0QKC4K-releases</name>
+        <url>http://localhost:8081/artifactory/test-maven</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-C0QKC4K-snapshots</name>
+        <url>http://localhost:8081/artifactory/test-maven</url>
+    </snapshotRepository>
 </distributionManagement>
+  
+   
 
 </project>
